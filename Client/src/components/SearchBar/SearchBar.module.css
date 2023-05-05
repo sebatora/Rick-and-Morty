@@ -1,0 +1,8 @@
+.SearchContainer{
+  margin-left: auto;
+  display: flex;
+  padding: 1em;
+  background-color: var(--bg-color);
+  background-image: var(--bg-image);
+  border-radius: 10px;
+}

@@ -1,0 +1,18 @@
+.NavContainer{
+  display: flex;
+  width: 80%;
+  margin: 10px auto 0 auto;
+  padding: 1em;
+  border-radius: 10px;
+  background-color: var(--bg-color);
+  background-image: var(--bg-image);
+  border: 2px solid black;
+  align-items: center;
+}
+
+.navLink {
+margin: auto;
+display: flex;
+flex-direction: row;
+align-items: center;
+}

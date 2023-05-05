@@ -1,0 +1,67 @@
+.aboutDetail{
+  margin: 1% auto;
+  display: flex;
+  flex-direction: row;
+  width: 65%;
+}
+
+.aboutSpec{
+  background-image: var(--bg-image);
+  width: 75%;
+  border-radius: 10px;
+  margin: 0;
+}
+
+.aboutSpec h2{
+  font-size: large;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: underline;
+  margin: 1em 0 0 0;
+}
+
+.aboutSpec h3{
+  font-size: x-large;
+  font-weight: 600;
+  margin-top: 1%;
+}
+
+.aboutImg{
+  text-align: right;
+  margin: auto;
+}
+
+img{
+  border-radius: 10px;
+}
+
+.aboutInfo{
+  background-image: var(--bg-image);
+  width: 50%;
+  margin: auto;
+  border-radius: 10px;
+  font-size: larger;
+  font-weight: 600;
+  padding: 0.5%;
+}
+
+.aboutTech {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+}
+
+.aboutTech img {
+  width: 7rem;
+}
+
+.aboutContact {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  width: 25%;
+  justify-content: space-evenly;
+}
+.aboutContact a{
+color: black;
+}

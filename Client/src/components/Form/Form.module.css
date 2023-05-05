@@ -1,0 +1,66 @@
+.formBack{
+  background-image: url( "E:\Mis Documentos\Documentos\SoyHenry\REACT\rick-and-morty\Client\src\assets\rymloginback.jpg" );
+  background-repeat:repeat;
+  background-position-y: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  padding-top: 3%;
+}
+
+
+.formContainer{
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 25vw;
+  padding: 1%;
+  border-radius: 15px;
+  border: 2px solid white;
+  text-align: center;
+  font-size: 1rem;
+  align-items: center;
+  justify-content: center;
+  background-image: var(--bg-image)
+}
+
+.formContainer h2{
+  font-size: x-large;
+  font-weight: bolder;
+}
+
+.formContainer p{
+  font-size: small;
+  font-weight: bold;
+}
+
+.formContainer img{
+  width: 50%;
+  object-fit: cover;
+}
+
+.form label{
+  align-items: center;
+  font-weight: bold;
+  margin: 0 auto;
+}
+
+.form input{
+  display: block;
+  align-items: center;
+  box-sizing: border-box;
+  margin: 5px auto 0 auto;
+  border-radius: 5px;
+}
+
+.form input:focus{
+  outline: 2px solid #26d0cd87;
+}
+
+.error{
+  color: red;
+  font-size: 0.85em;
+  font-weight: bold;
+  text-align: center;
+}
+
